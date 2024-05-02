@@ -7,69 +7,97 @@
     <title>The Garden of Eat'n</title>
   </head>
   <body>
-    <header>
+    <header id="home1">
       <nav>
         <ul>
-          <li><a href="pages/page1.html">Meals</a></li>
-          <li><a href="pages/page2.html">Beverages</a></li>
+          <li><a href="#home">Home</a></li>
+
+          <form id="dropDownForm" action="" method="get">
+            <select id="dropDown" onchange="this.form.action = this.value;">
+              <option value="">Menu</option>
+              <option value="pages/page1.html">Meals</option>
+              <option value="pages/page2.html">Drinks</option>
+            </select>
+            <button type="submit">Go</button>
+          </form>
+
+          <li><a href="#team">Meet The Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
-
-      <main>
-        <section>
-          <h2>Welcome to The Gardern of Eat'n</h2>
-          <p>
-            Welcome to The Garden Of Eat'n, where culinary delights bloom in
-            every dish! Step into our digital oasis, where the freshest
-            ingredients meet creative recipes to cultivate a symphony of flavors
-            that will tantalize your taste buds’ . Whether you're a seasoned
-            chef or a culinary novice, our virtual garden is brimming with
-            delectable treats to satisfy every palate. From farm-fresh salads to
-            indulgent desserts, we invite you to embark on a gastronomic journey
-            unlike any other. Join us in savoring the beauty of food, where
-            every bite is a celebration of nature's bounty. Welcome to The
-            Garden Of Eat'n - where every meal is a feast for the senses.
-          </p>
-        </section>
-
-        <section>
-          <h2>Meet The Team</h2>
-
-          <img src="" alt="profilePicture1" loading="lazy" />
-
-          <h3>Shakeel Davids</h3>
-          <p>
-            Hey, I am Shakeel Davids.I played a pivotal role in crafting the
-            website's foundation, focusing on HTML structuring and page
-            organization. I developed the HTML structure, ensuring accessibility
-            across all pages.I implemented a systematic approach to organizing
-            webpages, enhancing user navigation and experience.I ensured
-            alignment between HTML structure, design elements, and content
-            requirements, contributing to a cohesive and successful project
-            execution.
-          </p>
-
-          <img src="" alt="profilePicture2" loading="lazy" />
-          <h3>Keira Kistensamy</h3>
-          <p>
-            My name is Keira Kistensamy and I orchestrated the design and layout
-            of our website, ensuring every detail reflects our vision for The
-            Garden Of Eat'n. From capturing the theme to organizing content and
-            navigation, I push myself to craft an inviting digital space where
-            food enthusiasts can explore and indulge in culinary delights.
-          </p>
-
-          <img src="" alt="profilePicture3" loading="lazy" />
-          <h3>Joshua Langeveldt</h3>
-          <p>
-            Hi, names Joshua Langeveldt and I deal with the programming part of
-            this project bytaking the designed wireframe and programming it into
-            an actual website using HTML and CSS.
-          </p>
-        </section>
-      </main>
-
-      <footer></footer>
     </header>
+
+    <main>
+      <section id="home">
+        <h2>Welcome to The Gardern of Eat'n</h2>
+        <p>
+          Welcome to The Garden Of Eat'n, where culinary delights bloom in every
+          dish! Step into our digital oasis, where the freshest ingredients meet
+          creative recipes to cultivate a symphony of flavors that will
+          tantalize your taste buds’ . Whether you're a seasoned chef or a
+          culinary novice, our virtual garden is brimming with delectable treats
+          to satisfy every palate. From farm-fresh salads to indulgent desserts,
+          we invite you to embark on a gastronomic journey unlike any other.
+          Join us in savoring the beauty of food, where every bite is a
+          celebration of nature's bounty. Welcome to The Garden Of Eat'n - where
+          every meal is a feast for the senses.
+        </p>
+      </section>
+
+      <section id="team">
+        <h2>Meet The Team</h2>
+
+        <img src="" alt="profilePicture1" loading="lazy" />
+
+        <h3>Shakeel Davids</h3>
+        <p>
+          Hey, I am Shakeel Davids.I played a pivotal role in crafting the
+          website's foundation, focusing on HTML structuring and page
+          organization. I developed the HTML structure, ensuring accessibility
+          across all pages.I implemented a systematic approach to organizing
+          webpages, enhancing user navigation and experience.I ensured alignment
+          between HTML structure, design elements, and content requirements,
+          contributing to a cohesive and successful project execution.
+        </p>
+
+        <img src="" alt="profilePicture2" loading="lazy" />
+        <h3>Keira Kistensamy</h3>
+        <p>
+          My name is Keira Kistensamy and I orchestrated the design and layout
+          of our website, ensuring every detail reflects our vision for The
+          Garden Of Eat'n. From capturing the theme to organizing content and
+          navigation, I push myself to craft an inviting digital space where
+          food enthusiasts can explore and indulge in culinary delights.
+        </p>
+
+        <img src="" alt="profilePicture3" loading="lazy" />
+        <h3>Joshua Langeveldt</h3>
+        <p>
+          Hi, names Joshua Langeveldt and I deal with the programming part of
+          this project bytaking the designed wireframe and programming it into
+          an actual website using HTML and CSS.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+
+        <img src="" alt="phoneIcon" loading="lazy" />
+
+        <p>021 759 6382</p>
+        <p>or</p>
+        <p>021 730 5693</p>
+
+        <p>thegardernofeatn@gmail.com</p>
+        <img src="" alt="gmailIcon" loading="lazy" />
+
+        <img src="" alt="locationIcon" loading="lazy" />
+        <p>132 Symphsny Way</p>
+        <p>Salt River</p>
+        <p>Cape Town</p>
+        <p>7732</p>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>

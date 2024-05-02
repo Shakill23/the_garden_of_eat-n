@@ -9,7 +9,19 @@
     <header>
       <nav>
         <ul>
-          <li><a href="../index.html">Go Back</a></li>
+          <li><a href="../index.html#home1">Home</a></li>
+
+          <form id="dropDownForm" action="" method="get">
+            <select id="dropDown" onchange="this.form.action = this.value;">
+              <option value="">Menu</option>
+              <option value="pages/page1.html">Meals</option>
+              <option value="pages/page2.html">Drinks</option>
+            </select>
+            <button type="submit">Go</button>
+          </form>
+
+          <li><a href="../index.html">Meet The Team</a></li>
+          <li><a href="../index.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
