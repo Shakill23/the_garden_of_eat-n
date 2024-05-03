@@ -3,27 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Foods and Deserts</title>
   </head>
   <body>
     <header>
       <nav>
+        <div class="logo-container">
+          <img src="https://shakill23.github.io/all-images/images/tgoeLogo.png" alt="logo" loading="lazy" class="logo">
+          <h1>The Garden of Eat'n</h1>
+        </div>
         <ul>
           <li><a href="../index.html#home1">Home</a></li>
-
-          <form id="dropDownForm" action="" method="get">
-            <select id="dropDown" onchange="this.form.action = this.value;">
-              <option value="">Menu</option>
-              <option value="pages/page1.html">Meals</option>
-              <option value="pages/page2.html">Drinks</option>
-            </select>
-            <button type="submit">Go</button>
-          </form>
-
-          <li><a href="../index.html">Meet The Team</a></li>
-          <li><a href="../index.html">Contact Us</a></li>
+          <li>
+            <form id="dropDownForm" action="" method="get">
+              <select id="dropDown" onchange="this.form.action = this.value;">
+                <option value="">Menu</option>
+                <option value="/pages/page1.html">Meals</option>
+                <option value="/pages/page2.html">Drinks</option>
+              </select>
+              <button type="submit">Go</button>
+            </form>
+          </li>
+          <li><a href="#team">Meet The Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
+      
     </header>
     <main>
       <h2>Harvest Haven</h2>
